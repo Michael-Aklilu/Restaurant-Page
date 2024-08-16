@@ -8,9 +8,8 @@ body {
 .header {
   display: flex;
   justify-content: center;
-  margin-top: 2em;
   background-color: black;
-  height: 3em;
+  height: 2em;
 }
 h1 {
   display: flex;
@@ -37,9 +36,9 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
-  padding: 2em;
+  padding: 4em;
   font-size: 1.25em;
-  justify-content: center;
+  border-bottom: 0;
 }
 .description {
   margin-top: 1em;
@@ -48,10 +47,13 @@ li {
   list-style-type: none;
 }
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   background-color: black;
-  height: 3em;
-  font-size: 3em;
+  height: 2em;
+  width: 100vw;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
 }

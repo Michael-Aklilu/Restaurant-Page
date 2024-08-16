@@ -1,1 +1,21 @@
-
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+.shiro {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+}
+.shiro img {
+  height: 30vh;
+  width: 30vw;
+  font-size: 1.5em;
+}
+#content {
+  height: 100%;
+}
+img {
+  border-radius: 20px;
+}

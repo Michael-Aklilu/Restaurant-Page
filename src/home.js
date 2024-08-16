@@ -1,7 +1,12 @@
 "use strict";
 
 export default function layout() {
-  const content = document.createElement("div");
+  let content = document.querySelector("#content");
+
+  if (content) {
+    content.remove();
+  }
+  content = document.createElement("div");
   content.setAttribute("id", "content");
 
   const hagere = document.createElement("h1");
@@ -11,7 +16,7 @@ export default function layout() {
   const description = document.createElement("div");
   description.classList.add("description");
   content.appendChild(description);
-  description.textContent = `Hagere is a vibrant Ethiopian restaurant that brings the rich flavors
+  description.innerHTML = `Hagere is a vibrant Ethiopian restaurant that brings the rich flavors
         and traditions of Ethiopia to life. Nestled in a cozy and welcoming
         space, the restaurant is adorned with authentic Ethiopian décor,
         creating an ambiance that feels both warm and inviting. At Hagere,
@@ -20,7 +25,7 @@ export default function layout() {
         prepared with fresh ingredients and aromatic spices. The restaurant
         prides itself on offering a communal dining experience, where friends
         and family can gather around a shared platter, savoring the bold, earthy
-        flavors that are the hallmark of Ethiopian cuisine. <br /><br />
+        flavors that are the hallmark of Ethiopian cuisine. <br> <br>
         Whether you're a seasoned aficionado or new to Ethiopian food, Hagere
         offers an unforgettable dining experience that celebrates the rich
         culture and hospitality of Ethiopia. Hagere is an Ethiopian restaurant
@@ -51,6 +56,7 @@ export default function layout() {
   const footer = document.createElement("div");
   footer.classList.add("footer");
   footer.innerHTML = "The Odin project &copy";
+  content.appendChild(footer);
 
   document.body.appendChild(content);
 }
