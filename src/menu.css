@@ -7,11 +7,6 @@
   display: flex;
   flex-direction: column;
   font-size: 1em;
-  border: solid 0.5em white;
-  padding: 0.5em;
-  border-radius: 20px;
-  border-width: medium;
-  margin: 1em;
 }
 .shiro img {
   height: 30vh;
@@ -23,18 +18,4 @@
 }
 img {
   border-radius: 20px;
-}
-.kitfo {
-  border: solid 0.5em white;
-  padding: 0.5em;
-  border-radius: 20px;
-  border-width: medium;
-  margin: 1em;
-}
-.tibs {
-  border: solid 0.5em white;
-  padding: 0.5em;
-  border-radius: 20px;
-  border-width: medium;
-  margin: 1em;
 }
