@@ -3,7 +3,7 @@
 export default function layout() {
   let content = document.querySelector("#content");
 
-  if (content) {
+  if(content){
     content.remove();
   }
   content = document.createElement("div");
@@ -25,7 +25,22 @@ export default function layout() {
         prepared with fresh ingredients and aromatic spices. The restaurant
         prides itself on offering a communal dining experience, where friends
         and family can gather around a shared platter, savoring the bold, earthy
-        flavors that are the hallmark of Ethiopian cuisine. <br> <br>`;
+        flavors that are the hallmark of Ethiopian cuisine. <br> <br>
+        Whether you're a seasoned aficionado or new to Ethiopian food, Hagere
+        offers an unforgettable dining experience that celebrates the rich
+        culture and hospitality of Ethiopia. Hagere is an Ethiopian restaurant
+        that embodies the heart and soul of Ethiopia’s culinary heritage. As
+        soon as you step inside, you’re greeted by the warm aroma of spices and
+        the vibrant energy of a space designed to reflect the country’s rich
+        culture. The restaurant’s menu is a tribute to traditional Ethiopian
+        cuisine, featuring a range of dishes that are both flavorful and deeply
+        satisfying. From the spongy, tangy injera to the slow-cooked stews and
+        sautéed vegetables, every dish is crafted with care and authenticity.
+        Hagere is not just about the food; it’s about the experience. Guests are
+        encouraged to eat with their hands, sharing meals in the traditional
+        Ethiopian way, fostering a sense of community and connection. With its
+        inviting atmosphere and delicious food, Hagere offers a genuine taste of
+        Ethiopia, making it a beloved spot for both locals and visitors alike.`;
 
   const hours = document.createElement("div");
   hours.classList.add("hours");
