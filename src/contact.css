@@ -1,0 +1,21 @@
+.owner {
+  border: solid 0.5em white;
+  padding: 1em;
+  border-radius: 20px;
+  text-align: center;
+  border-width: medium;
+  margin: 1em;
+  width: 50vw;
+  margin: 0 auto;
+  width: 50%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  height: 3em;
+  width: 100vw;
+  font-size: 1em;
+  text-align: center;
+}

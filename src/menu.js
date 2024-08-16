@@ -51,4 +51,9 @@ export default function menuLayout() {
   menuContent.appendChild(tibs);
 
   mainContent.appendChild(menuContent);
+
+  const footer = document.createElement("div");
+  footer.classList.add("footer");
+  footer.innerHTML = `The Odin project &copy`;
+  mainContent.appendChild(footer);
 }
